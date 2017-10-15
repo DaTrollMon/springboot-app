@@ -11,7 +11,6 @@ buildscript {
 }
 
 apply plugin: 'java'
-apply plugin: 'eclipse'
 apply plugin: 'idea'
 apply plugin: 'org.springframework.boot'
 // tag::plugin[]
@@ -19,10 +18,10 @@ apply plugin: 'docker'
 // end::plugin[]
 
 // This is used as the docker image prefix (org)
-group = 'springio'
+group = 'fnightingale'
 
 jar {
-    baseName = 'gs-spring-boot-docker'
+    baseName = 'awesome-springboot'
     version =  '0.1.0'
 }
 
